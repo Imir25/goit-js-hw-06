@@ -30,6 +30,3 @@ function createBoxes() {
   boxesContainer.append(...boxes);
 }
 
-function destroyBoxes() {
-  boxesContainer.innerHTML = '';
-}
