@@ -17,4 +17,6 @@ function handleSubmit(event) {
     return;
   }
 
- 
+  console.log(formObject); // Display form data in console
+  form.reset(); // Clear form fields
+}
